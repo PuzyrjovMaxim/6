@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>Калькулятор</title>
+    <title>РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -14,26 +14,26 @@
     <div class="container-fluid ">
         <div class="row d-flex ">
             <form name="form">
-                <h4>Выберите товар:</h4>
+                <h4>Г‚Г»ГЎГҐГ°ГЁГІГҐ ГІГ®ГўГ Г°:</h4>
                 <div class="item">
-                    <input type="text" id="kol" oninput="updatePrice()" placeholder="Количество товара: " />
+                    <input type="text" id="kol" oninput="updatePrice()" placeholder="ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГІГ®ГўГ Г°Г : " />
                     <select name="prodType">
-                        <option value="1">Кол-во программистов</option>
-                        <option value="2">Проект</option>
-                        <option value="3">Реализация</option>
+                        <option value="1">ГЉГ®Г«-ГўГ® ГЇГ°Г®ГЈГ°Г Г¬Г¬ГЁГ±ГІГ®Гў</option>
+                        <option value="2">ГЏГ°Г®ГҐГЄГІ</option>
+                        <option value="3">ГђГҐГ Г«ГЁГ§Г Г¶ГЁГї</option>
                     </select>
                 </div>
                 <div id="checkboxes">
-                    <label><input type="checkbox" name="prop1"> Начальный</label>
-                    <label><input type="checkbox" name="prop2"> Туда-сюда</label>
-                    <label><input type="checkbox" name="prop3"> Нормальный</label>
+                    <label><input type="checkbox" name="prop1"> ГЌГ Г·Г Г«ГјГ­Г»Г©</label>
+                    <label><input type="checkbox" name="prop2"> Г’ГіГ¤Г -Г±ГѕГ¤Г </label>
+                    <label><input type="checkbox" name="prop3"> ГЌГ®Г°Г¬Г Г«ГјГ­Г»Г©</label>
                 </div>
                 <div id="radios">
-                    <label><input type="radio" name="prodOptions" value="option1"> На скорую руку</label>
-                    <label><input type="radio" name="prodOptions" value="option2"> Сойдет</label>
-                    <label><input type="radio" name="prodOptions" value="option3"> Великолепно</label>
+                    <label><input type="radio" name="prodOptions" value="option1"> ГЌГ  Г±ГЄГ®Г°ГіГѕ Г°ГіГЄГі</label>
+                    <label><input type="radio" name="prodOptions" value="option2"> Г‘Г®Г©Г¤ГҐГІ</label>
+                    <label><input type="radio" name="prodOptions" value="option3"> Г‚ГҐГ«ГЁГЄГ®Г«ГҐГЇГ­Г®</label>
                 </div>
-                <h4>Стоимость заказа:</h4>
+                <h4>Г‘ГІГ®ГЁГ¬Г®Г±ГІГј Г§Г ГЄГ Г§Г :</h4>
                 <div class="text-body" id="prodPrice"></div>
             </form>
         </div>
